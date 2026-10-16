@@ -20,6 +20,12 @@
 | [Báo cáo cá nhân](report/team/2A202602385_DuongThiHongVien.md) | Phần việc, bằng chứng và nội dung tự đánh giá |
 | [Phân tích AI](report/team/AI_REVIEW.md) | Nhận định rủi ro bị mô hình miễn phí làm thay và đối chiếu hồ sơ |
 
+### Xem trước slide lãnh đạo
+
+![Slide lãnh đạo SổSạch, nội dung khớp 5 ô B4:B8 của trang 5](Neiv_CS13_Slide.png)
+
+Slide gồm đúng 1 trang, dùng phong cách trắng–navy–cyan theo ảnh tham khảo. Nội dung lấy từ `5_Slide lãnh đạo!B4:B8`; phần lộ trình ở B5 được tách thành ba giai đoạn, giữ đủ nội dung. Chữ và sơ đồ chỉnh sửa được trong PowerPoint.
+
 ## Quyết định chính
 
 Triển khai SổSạch ở Mức 1, mục tiêu giảm 50% giờ nhập hóa đơn ảnh và duyệt khoảng 20% hóa đơn. Tận dụng chức năng nhập tệp gốc của phần mềm hiện có và dịch vụ tra cứu mã số thuế. Gợi ý hạch toán chờ dữ liệu; không triển khai hỏi đáp thuế chung.
