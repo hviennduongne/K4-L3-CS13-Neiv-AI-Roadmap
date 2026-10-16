@@ -22,11 +22,11 @@ Nhập tệp gốc đứng đầu điểm ưu tiên (9,75) nhưng lựa chọn l
 
 Mức 1 có chi phí 704 đồng/việc, biên gộp 68,79% theo dữ liệu đề. Nếu tỷ lệ duyệt tăng từ 20% lên 40%, chi phí thành 954 đồng, biên còn 57,71%. Vì vậy phải đo tỷ lệ cờ thật và chi phí duyệt, không hạ tiêu chuẩn an toàn để giữ biên.
 
-40 doanh nghiệp của văn phòng thử nghiệm không đồng nghĩa 40 văn phòng khách hàng. Điều kiện dừng doanh thu cần ít nhất 10 văn phòng trong 2 tháng, nên chưa đủ mẫu thì giữ thử nghiệm, không tuyên bố đã vượt kiểm tra kinh doanh. 12.000 hóa đơn/tháng mô tả văn phòng thử nghiệm; 1.760 việc/khách/tháng là giả định kinh tế, hai số không được tráo đổi.
+40 doanh nghiệp của văn phòng thử nghiệm không đồng nghĩa 40 văn phòng khách hàng. Điều kiện dừng doanh thu cần ít nhất 10 văn phòng trong 2 tháng liên tiếp, nên chưa đủ mẫu thì giữ thử nghiệm, không tuyên bố đã vượt kiểm tra kinh doanh. 12.000 hóa đơn/tháng mô tả văn phòng thử nghiệm; 1.760 việc/khách/tháng là giả định kinh tế, hai số không được tráo đổi. Bài giới hạn thử 1.000 hóa đơn với 5 giờ duyệt và 704.000 đồng chi phí biến đổi dự kiến; xử lý toàn bộ 12.000 hóa đơn cần gói giá hoặc ngân sách riêng.
 
 ## Tự đánh giá và giới hạn
 
-Nội dung cần hiểu và giải thích được là quan hệ giữa dữ liệu, cổng, quyền tự động và chi phí. Không thấy lỗi trên 40 ca không chứng minh tỷ lệ lỗi thật bằng 0. Cổng bổ sung 300 ca và 1.000 ca là đề xuất, chưa chạy thử. Chưa có báo giá tích hợp, lịch giờ Tùng hoặc dữ liệu hạch toán nên phải xác nhận trước triển khai.
+Nội dung cần hiểu và giải thích được là quan hệ giữa dữ liệu, cổng, quyền tự động và chi phí. Không thấy lỗi trên 40 ca chọn có chủ đích không chứng minh tỷ lệ lỗi thật bằng 0; quy tắc 3/n cần giả định mẫu ngẫu nhiên độc lập. Cổng bổ sung 300 ca và 1.000 ca là đề xuất, chưa chạy thử. Chưa có báo giá tích hợp, lịch giờ Tùng hoặc dữ liệu hạch toán nên phải xác nhận trước triển khai.
 
 Bài được xây dựng với hỗ trợ AI trong phiên làm việc, dựa trên hồ sơ giả định. [Ghi nhận phân tích AI](AI_REVIEW.md) trình bày nhận định về rủi ro bị mô hình miễn phí làm thay. Các điểm số là phán đoán cho bài lab, không phải bằng chứng thị trường đã kiểm chứng.
 

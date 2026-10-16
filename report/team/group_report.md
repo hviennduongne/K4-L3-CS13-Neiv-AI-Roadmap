@@ -34,7 +34,7 @@ Mức 0 duyệt 100%, dùng khi cần quay lui. Mức 1 dự kiến duyệt 20%,
 
 Cổng Mức 1 giữ ngưỡng hồ sơ trên 40 ca: ≥95% quy về thực tế, 0 lỗi nghiêm trọng, 0 tầng tụt, kappa ≥0,6; thêm chạy thử 1.000 hóa đơn, kiểm ít nhất 200. Mức 2 giữ cổng hồi quy và cần kiểm độc lập 300 hóa đơn thật đủ tầng, 0 lỗi nghiêm trọng. Mức 3 chưa cam kết, cần kiểm ít nhất 1.000 ca trong ít nhất 4 tuần, 0 lỗi nghiêm trọng. Chị Hạnh xác nhận nghiệp vụ, anh Tùng đối chiếu; lãnh đạo quyết định tăng mức sau kiểm chi phí.
 
-Quy tắc gần đúng 3/n khi quan sát 0 lỗi cho giới hạn trên ở mức tin cậy 95%: 40 ca khoảng 7,5%, 300 ca khoảng 1%, 1.000 ca khoảng 0,3%. Không diễn giải 0 lỗi quan sát thành bảo đảm không có lỗi. Các ca lấy mẫu và ca khó phải ghi tách tầng; tỷ lệ tổng hợp quy theo phân bố thực tế.
+Quy tắc gần đúng 3/n khi quan sát 0 lỗi cho giới hạn trên ở mức tin cậy 95%: 300 ca khoảng 1%, 1.000 ca khoảng 0,3%, với giả định mẫu ngẫu nhiên độc lập, đại diện cho phạm vi áp dụng. Không áp thẳng phép suy luận này cho bộ 40 ca chọn có chủ đích hoặc mẫu tăng cường tầng hiếm. Các ca lấy mẫu và ca khó phải ghi tách tầng; tỷ lệ tổng hợp quy theo phân bố thực tế. Không diễn giải 0 lỗi quan sát thành bảo đảm không có lỗi.
 
 Văn phòng thử nghiệm có 12.000 hóa đơn/tháng. Với 1,5 phút/ca, Mức 1 cần khoảng 60 giờ duyệt công ty/tháng, Mức 2 cần 30 giờ, Mức 3 cần 15 giờ, chưa tính các vòng đánh giá bổ sung. Đây là nhân sự vận hành của công ty, không dồn hết cho chuyên gia. Hạnh có tối đa 3 giờ/tuần. Một vòng 40 ca tốn 8,5 giờ nên chia ít nhất 3 tuần và xác nhận giờ hỗ trợ của Tùng. Kiểm 1% thực tế tuần đầu tương đương khoảng 30 ca/tuần nếu phân bố 4 tuần, ít nhất 45 phút rà nhanh; ca tranh luận cần thêm thời gian. Giới hạn 3 giờ vẫn phải bao gồm phần việc của Hạnh trong hồi quy và các ngoại lệ.
 
@@ -51,11 +51,13 @@ Chi phí mỗi việc = 254 + 200 + tỷ lệ duyệt × 1,5 × 50.000 / 60. Bi�
 
 Thử đổi đầu vào tỷ lệ duyệt Mức 1 sang 40% cho ra 954 đồng và biên 57,71%, rồi khôi phục 20%. Mức 1 chỉ còn dư khoảng 198,27 đồng/việc trước khi biên xuống 60%, nếu các đầu vào khác giữ nguyên. Phí tích hợp và dịch vụ mua phải đối chiếu phần chi phí 200 đồng đã có, tránh vừa bỏ sót vừa cộng trùng. Chưa có báo giá nên không khẳng định mô hình kinh tế đã được xác minh.
 
-12.000 việc/tháng là quy mô văn phòng thử nghiệm; 1.760 việc/khách/tháng là giả định bình quân dùng tính kinh tế. Không đổi âm thầm 2 mẫu số này. Nếu khách thử nghiệm chịu cùng doanh thu 3,97 triệu nhưng xử lý toàn bộ 12.000 việc, phải thỏa thuận lại giá/hạn mức hoặc tính riêng trước ký hợp đồng.
+12.000 việc/tháng là quy mô văn phòng thử nghiệm; 1.760 việc/khách/tháng là giả định bình quân dùng tính kinh tế. Không đổi âm thầm 2 mẫu số này. Ở Mức 1, xử lý cả 12.000 việc tốn 8,448 triệu đồng/tháng; nếu vẫn chỉ thu 3,97 triệu, biên gộp là −112,80%, không phải 68,79%. Để biên 60% cho 12.000 việc, doanh thu cần ít nhất 21,12 triệu đồng/tháng trước phí phát sinh. Ở Mức 2, chi phí tương ứng 6,948 triệu, doanh thu cần ít nhất 17,37 triệu. Đây là phép kiểm độ nhạy, không sửa giá bán hoặc số việc bình quân đã cho.
+
+Do đó tầng Bây giờ giới hạn thử tối đa 1.000 hóa đơn, dự kiến 200 ca duyệt tương đương 5 giờ và 704.000 đồng chi phí biến đổi theo công thức đề. Phải xin duyệt riêng phí tích hợp, kiểm độc lập và giờ chuyên gia vượt phần đã dự trù. Mốc ngày 30 bàn giao quy trình và kết quả đo; ngày 90 quyết định tiếp. Không tự tăng lên 12.000 việc nếu chưa có gói giá/hạn mức hoặc ngân sách thử riêng. Nếu hết phạm vi thử mà chưa qua cổng, giữ Mức 0 hoặc sửa trong phạm vi được phê duyệt.
 
 ## Lộ trình và điều kiện dừng
 
-0–3 tháng tập trung đọc ảnh, gắn cờ, tích hợp công cụ sẵn có và đo hiệu quả ở Mức 1. 3–6 tháng chỉ mở Mức 2 sau cổng. 6–12 tháng khám phá hạch toán và Mức 3 nếu đủ dữ liệu, chuyên gia và kinh phí. Lịch không tự động cấp quyền tăng mức.
+0–3 tháng tập trung đọc ảnh, gắn cờ và tích hợp đối chiếu MST trước khi tự nhập, đồng thời tận dụng bộ nhập tệp gốc. Ngày 30 bàn giao quy trình và đo hiệu quả ở thử nghiệm 1.000 ca; ngày 90 ra quyết định tiếp. 3–6 tháng chỉ mở Mức 2 sau cổng. 6–12 tháng khám phá hạch toán và Mức 3 nếu đủ dữ liệu, chuyên gia và kinh phí. Lịch không tự động cấp quyền tăng mức.
 
 - Bất kỳ lúc nào có ít nhất 1 lỗi MST/tiền: dừng tự nhập, lùi Mức 0, điều tra và chạy hồi quy.
 - Ngày 30: cờ thừa >10%/1.000 ca hoặc giảm giờ nhập <50%/100 ảnh thì sửa và giữ quy mô.
@@ -68,7 +70,7 @@ Trang 4 ghi quyết định ngày 30/60/90 từ lúc bắt đầu triển khai v
 
 ## Kết quả, hạn chế và đóng góp
 
-Excel được tính lại bằng Microsoft Excel, 8/8 mục trang 6 đạt; 5 ô trang 5 có lần lượt 34, 35, 48, 50 và 51 chữ. Slide có đúng 1 trang, cùng nội dung trang 5. Đã kiểm công thức kinh tế và thay đổi tỷ lệ duyệt. Kết quả tự kiểm tra không phải điểm chấm nội dung.
+Excel được tính lại bằng Microsoft Excel, 8/8 mục trang 6 đạt; 5 ô trang 5 đều không quá 60 chữ. Slide có đúng 1 trang, cùng nội dung trang 5. Kết luận là một câu có người dùng, mục tiêu và mốc quyết định theo slide 70. Đã kiểm công thức kinh tế, thay đổi tỷ lệ duyệt và phân biệt quy mô thử nghiệm với bình quân kinh tế. Kết quả tự kiểm tra không phải điểm chấm nội dung.
 
 Chưa có dữ liệu vận hành mới, báo giá dịch vụ, giờ Tùng cam kết, mẫu 10 văn phòng hoặc dữ liệu hạch toán. Vì vậy bài chỉ đề xuất lộ trình có điều kiện. [Thông tin đóng góp](../../team/TEAM.md) và [báo cáo cá nhân](2A202602385_DuongThiHongVien.md) dẫn đến bằng chứng tương ứng.
 

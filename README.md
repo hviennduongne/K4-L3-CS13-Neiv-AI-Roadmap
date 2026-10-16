@@ -28,7 +28,7 @@ Slide gồm đúng 1 trang, dùng phong cách trắng–navy–cyan theo ảnh t
 
 ## Quyết định chính
 
-Triển khai SổSạch ở Mức 1, mục tiêu giảm 50% giờ nhập hóa đơn ảnh và duyệt khoảng 20% hóa đơn. Tận dụng chức năng nhập tệp gốc của phần mềm hiện có và dịch vụ tra cứu mã số thuế. Gợi ý hạch toán chờ dữ liệu; không triển khai hỏi đáp thuế chung.
+Thử nghiệm SổSạch tại văn phòng kế toán với tối đa 1.000 hóa đơn, mục tiêu giảm 50% giờ nhập ảnh và duyệt khoảng 20%. Tận dụng bộ nhập tệp gốc và tích hợp đối chiếu mã số thuế trước khi tự nhập. Ngày 30 bàn giao quy trình và kết quả đo, ngày 90 quyết định lên Mức 2 nếu qua cổng. Gợi ý hạch toán chờ dữ liệu; không triển khai hỏi đáp thuế chung.
 
 | Mức | Tỷ lệ duyệt dự kiến | Chi phí/việc | Biên gộp theo đề |
 |---|---:|---:|---:|
@@ -41,9 +41,13 @@ Mức 2 và 3 cần qua cổng trước khi triển khai. Duyệt mọi cờ và
 
 Có ít nhất 1 lỗi mã số thuế hoặc tiền thì dừng tự nhập ngay, lùi mức và điều tra. Nếu doanh thu bình quân dưới 3,71 triệu/văn phòng trong 2 tháng liên tiếp trên ít nhất 10 văn phòng thì dừng mở rộng. Văn phòng thử nghiệm phục vụ 40 doanh nghiệp không tương đương 40 văn phòng khách hàng; khi chưa đủ mẫu, giữ thử nghiệm và chưa kết luận vượt điều kiện kinh doanh.
 
+Thử 1.000 hóa đơn cần khoảng 5 giờ duyệt và 704.000 đồng chi phí biến đổi ở Mức 1. Toàn bộ 12.000 hóa đơn/tháng của văn phòng thử nghiệm sẽ tốn 8,448 triệu đồng, nên không áp biên 68,79% của mức bình quân 1.760 việc cho quy mô này. Cần chốt giá/hạn mức hoặc ngân sách riêng trước khi mở rộng; phí phát sinh phải được duyệt.
+
 ## Kiểm tra và nguồn
 
 Bản Excel được tính lại bằng Microsoft Excel: trang `6_Tự kiểm tra` đạt 8/8 mục, trang 5 có 5 ô dưới 60 chữ. Điều này xác nhận độ đầy đủ của biểu mẫu, không tự quy đổi thành điểm chấm. Giữ công thức, số liệu kinh tế và cấu trúc 9 trang gốc; chỉ điền đầu vào và điều chỉnh kích thước hiển thị cho nội dung.
+
+[Bảng đối chiếu yêu cầu cuối](report/team/FINAL_REVIEW.md) dẫn đến bằng chứng CP1–CP5, rubric, yêu cầu cá nhân/nhóm và trạng thái nộp bài.
 
 Tất cả số liệu là tình huống giả định trong `docs/CS13_HoSoTinhHuong.pdf`, Đề 1, trang 2–3. Ngưỡng bổ sung và điểm ưu tiên là đề xuất của bài lab, chưa phải kết quả chạy thực tế. Tham khảo `docs/CS13_SlideLop_AIRoadmap.pdf`, slide 74 và 81–85, cùng mẫu `src/CS13_Roadmap_De1.xlsx`. Không chép số kinh tế của bản mẫu sản phẩm khác. Nội dung có hỗ trợ AI, xem ghi nhận phân tích ở trên.
 
