@@ -1,45 +1,50 @@
-# CS13 — Lộ trình sản phẩm AI
+# Neiv · Lab Day 13 · Lộ trình sản phẩm AI
 
-**AI in Action · Track 1 · Khóa 4 · Level 3 dùng chung · Chiều 16/10/2026**
+**VinUni AI Thực Chiến – Cohort IV**
 
-Trong bài này, nhóm bạn lập lộ trình 12 tháng cho một sản phẩm AI: làm gì trước, dựa vào bằng chứng nào, khi nào tăng mức tự động và khi nào dừng. Sản phẩm cuối là **một file Excel của nhóm** và **một slide cho lãnh đạo**, lưu trong repo GitHub của nhóm. Mỗi thành viên nộp cùng link repo trên VLearn. Bạn không cần viết code, cài Python hay có API key.
+- Học viên: Dương Thị Hồng Viên
+- Mã sinh viên: 2A202602385
+- Tên nhóm: Neiv
+- Bài thực hành: Lab Day 13 (CS13), ngày 16/10/2026
+- Đề lựa chọn: **Đề 1 · SổSạch**, theo quyền lựa chọn học viên giao.
+- Danh sách thành viên: Dương Thị Hồng Viên.
 
-## Bắt đầu từ đâu?
+## Sản phẩm
 
-1. Xem [luật làm bài](RULES.md), rồi xác định đề của nhóm trong bảng dưới.
-2. Tải [hồ sơ tình huống](docs/CS13_HoSoTinhHuong.pdf) và file Excel tương ứng về máy. Mở bằng Excel hoặc LibreOffice.
-3. Lưu một bản làm bài tên `[Nhom]_CS13.xlsx`, thay `[Nhom]` bằng tên nhóm thực tế.
-4. Tạo repo nhóm theo [SUBMISSION.md](SUBMISSION.md). Làm lần lượt CP1 → CP4 trong [CHECKPOINTS.md](CHECKPOINTS.md); CP5 làm ở nhà.
+| File | Nội dung |
+|---|---|
+| [Neiv_CS13.xlsx](Neiv_CS13.xlsx) | Hoàn thành CP1–CP5, 6 việc có giả thuyết và điểm, 4 mức tự động, lộ trình 12 tháng, lịch rà soát, 5 thông điệp lãnh đạo |
+| [Neiv_CS13_Slide.pptx](Neiv_CS13_Slide.pptx) | 1 slide cho lãnh đạo, nội dung khớp 5 ô trang 5 |
+| [Thông tin và đóng góp](team/TEAM.md) | Họ tên, MSSV và bằng chứng đóng góp |
+| [Báo cáo nhóm](report/team/group_report.md) | Căn cứ lựa chọn, kinh tế, điều kiện dừng và hạn chế |
+| [Báo cáo cá nhân](report/team/2A202602385_DuongThiHongVien.md) | Phần việc, bằng chứng và nội dung tự đánh giá |
+| [Phân tích AI](report/team/AI_REVIEW.md) | Nhận định rủi ro bị mô hình miễn phí làm thay và đối chiếu hồ sơ |
 
-| Số nhóm | Đề | File Excel cần tải |
-|---|---|---|
-| 1, 4, 7, 10 và các nhóm cách nhau 3 số | 1 · SổSạch — đọc hóa đơn đầu vào | [CS13_Roadmap_De1.xlsx](src/CS13_Roadmap_De1.xlsx) |
-| 2, 5, 8, 11 và các nhóm cách nhau 3 số | 2 · ChấmNhanh — chấm bài viết tiếng Anh | [CS13_Roadmap_De2.xlsx](src/CS13_Roadmap_De2.xlsx) |
-| 3, 6, 9, 12 và các nhóm cách nhau 3 số | 3 · RaViện — soạn nháp tóm tắt ra viện | [CS13_Roadmap_De3.xlsx](src/CS13_Roadmap_De3.xlsx) |
+## Quyết định chính
 
-Nếu chưa biết số nhóm, hỏi coach trước khi chọn file. Nhóm chỉ dùng **một** file đề. Có thể chọn một người giữ file và chia sẻ màn hình để cả nhóm cùng quyết định.
+Triển khai SổSạch ở Mức 1, mục tiêu giảm 50% giờ nhập hóa đơn ảnh và duyệt khoảng 20% hóa đơn. Tận dụng chức năng nhập tệp gốc của phần mềm hiện có và dịch vụ tra cứu mã số thuế. Gợi ý hạch toán chờ dữ liệu; không triển khai hỏi đáp thuế chung.
 
-**Chỉ điền ô vàng.** Ô xanh là công thức đã khóa. Số liệu kinh tế đã có ở trang `2_Mức tự động`, dòng 12–20; không cần tìm file của buổi khác. Khi cần xem cách diễn đạt, mở [bản mẫu cho một sản phẩm khác](src/CS13_Roadmap_Mau.xlsx); đừng chép số của mẫu sang đề của nhóm.
+| Mức | Tỷ lệ duyệt dự kiến | Chi phí/việc | Biên gộp theo đề |
+|---|---:|---:|---:|
+| 0 · Gợi ý | 100% | 1.704 đồng | 24,46% |
+| 1 · Hỗ trợ có duyệt | 20% | 704 đồng | 68,79% |
+| 2 · Tự động một phần | 10% | 579 đồng | 74,33% |
+| 3 · Tự động có giám sát | 5% | 516,5 đồng | 77,10% |
 
-## Cần hoàn thành gì trong 60 phút?
+Mức 2 và 3 cần qua cổng trước khi triển khai. Duyệt mọi cờ và lấy mẫu không trùng; các tỷ lệ là giả định kế hoạch, phải tăng khi cờ tăng. Chi phí đã dùng 254 đồng gọi AI, 200 đồng hạ tầng/đánh giá/khác và 1,5 phút × 50.000 đồng/giờ cho mỗi hóa đơn được duyệt. Biên dùng 3.970.000 đồng/khách/tháng và 1.760 việc/khách/tháng. Phí dịch vụ phát sinh chưa có báo giá.
 
-| Giờ ngày 16/10/2026 | Checkpoint | Kết quả cần có |
-|---|---|---|
-| 17:00–17:17 | CP1 · Đọc hồ sơ, viết giả thuyết | Đọc đủ 6 mục; ít nhất 5 việc có giả thuyết, chỉ số và ngưỡng |
-| 17:17–17:30 | CP2 · Chấm điểm ưu tiên | Ít nhất 5 việc có điểm; có lựa chọn và lý do |
-| 17:30–17:43 | CP3 · Mức tự động và cổng | Ít nhất 2 mức có cổng; có vai trò người duyệt và căn cứ kinh tế |
-| 17:43–17:55 | CP4 · Bảng lộ trình, rà soát | Tầng Bây giờ đủ 8 dòng; có điều kiện dừng và lịch rà soát |
-| 17:55–18:00 | Kiểm tra và nộp | Tải Excel lên repo nhóm; mỗi người nộp link repo trên VLearn |
-| Ở nhà, trước 23:59 ngày 19/10/2026 | CP5 · Slide lãnh đạo | Điền trang 5 và tạo 1 slide từ 5 ô nội dung |
+Có ít nhất 1 lỗi mã số thuế hoặc tiền thì dừng tự nhập ngay, lùi mức và điều tra. Nếu doanh thu bình quân dưới 3,71 triệu/văn phòng trong 2 tháng liên tiếp trên ít nhất 10 văn phòng thì dừng mở rộng. Văn phòng thử nghiệm phục vụ 40 doanh nghiệp không tương đương 40 văn phòng khách hàng; khi chưa đủ mẫu, giữ thử nghiệm và chưa kết luận vượt điều kiện kinh doanh.
 
-Tất cả mốc giờ dùng giờ Việt Nam. Phần lý thuyết diễn ra 14:00–17:00; lịch trên chỉ dành cho thực hành. Bản chuẩn không có phần thuyết trình trên lớp.
+## Kiểm tra và nguồn
 
-## Đọc thêm ở đâu?
+Bản Excel được tính lại bằng Microsoft Excel: trang `6_Tự kiểm tra` đạt 8/8 mục, trang 5 có 5 ô dưới 60 chữ. Điều này xác nhận độ đầy đủ của biểu mẫu, không tự quy đổi thành điểm chấm. Giữ công thức, số liệu kinh tế và cấu trúc 9 trang gốc; chỉ điền đầu vào và điều chỉnh kích thước hiển thị cho nội dung.
 
-- [CHECKPOINTS.md](CHECKPOINTS.md): từng bước điền, cách hiểu và tự kiểm tra.
-- [src/README.md](src/README.md): bản đồ các trang Excel và lỗi thường gặp.
-- [RUBRIC.md](RUBRIC.md): thang chấm chính thức 100 điểm.
-- [SUBMISSION.md](SUBMISSION.md): hai lần nộp và checklist.
-- [docs/README.md](docs/README.md): hồ sơ và slide bài giảng gốc.
+Tất cả số liệu là tình huống giả định trong `docs/CS13_HoSoTinhHuong.pdf`, Đề 1, trang 2–3. Ngưỡng bổ sung và điểm ưu tiên là đề xuất của bài lab, chưa phải kết quả chạy thực tế. Tham khảo `docs/CS13_SlideLop_AIRoadmap.pdf`, slide 74 và 81–85, cùng mẫu `src/CS13_Roadmap_De1.xlsx`. Không chép số kinh tế của bản mẫu sản phẩm khác. Nội dung có hỗ trợ AI, xem ghi nhận phân tích ở trên.
 
-Điền [team/TEAM.md](team/TEAM.md) để người chấm biết thành viên và đóng góp. Các mẫu trong `report/team/` dùng để ghi chép thêm nếu cần; bài làm chính là Excel và slide trong repo nhóm. Xem cách tạo repo, tải file và nộp link tại [SUBMISSION.md](SUBMISSION.md).
+## Nộp bài
+
+Link repo nộp trên VLearn: https://github.com/hviennduongne/K4-L3-CS13-Neiv-AI-Roadmap
+
+Theo [hướng dẫn nộp](SUBMISSION.md): bản CP1–CP4 trước 18:00 ngày 16/10/2026, bản cuối có trang 5 và slide trước 23:59 ngày 19/10/2026, giờ Việt Nam. Không có bằng chứng đã nộp VLearn trong phiên làm việc này. Học viên cần kiểm tra quyền truy cập repo, dán link và gửi bài bằng tài khoản cá nhân.
+
+Đề và hướng dẫn gốc vẫn nằm trong `docs/`, `src/`, [CHECKPOINTS.md](CHECKPOINTS.md), [RUBRIC.md](RUBRIC.md), [RULES.md](RULES.md). [README đề gốc](docs/HUONG_DAN_LAB_GOC.md) được lưu để đối chiếu.
